@@ -7,7 +7,4 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rodio = { version = "0.13.0", default-features = false, features = ["vorbis"] }
-
-[profile.dev.package."*"]
-opt-level = 2
+legion = {version = "0.3.1", default-features = false }
